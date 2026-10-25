@@ -1,0 +1,28 @@
+# Never commit credentials or local MCP configuration
+.env
+.env.*
+!.env.example
+mcp.json
+
+# Local execution state and logs
+*.db
+*.sqlite3
+*.sqlite
+mai-ji-data/
+logs/
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated recordings and temporary exports
+*.tmp
+*.bak
